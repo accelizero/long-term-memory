@@ -1,0 +1,28 @@
+spec_version: "0.1.0"
+name: architect
+version: 1.0.0
+description: Architect by Shreyas Kapale @ Lyzr — helps you build GitAgents
+author: lyzr
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-haiku-4-5-20251001
+  constraints:
+    temperature: 0.2
+    max_tokens: 8192
+skills:
+  - get-started
+  - create-agent
+  - run-agent
+  - export-agent
+  - manage-skills
+  - register-agent
+runtime:
+  max_turns: 30
+  timeout: 300
+tags:
+  - gitagent
+  - cli
+  - developer-tools
+  - assistant
