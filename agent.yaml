@@ -18,6 +18,7 @@ skills:
   - export-agent
   - manage-skills
   - register-agent
+  - long-term-memory
 runtime:
   max_turns: 30
   timeout: 300
